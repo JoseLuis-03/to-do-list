@@ -1,0 +1,45 @@
+/* bar-graph-tasks.component.css */
+
+/* Estilos para el contenedor de la gráfica */
+:host {
+    display: block; /* Para asegurarse de que el componente sea un bloque */
+  }
+  
+  /* Estilos para el gráfico SVG */
+  svg {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos para las barras */
+  .bar {
+    fill: #000000; /* Color de las barras */
+  }
+  
+  /* Estilos para los ejes */
+  .x-axis line,
+  .x-axis path,
+  .y-axis line,
+  .y-axis path {
+    fill: none;
+    shape-rendering: crispEdges;
+    stroke: #ccc; /* Color de las líneas de los ejes */
+  }
+  
+  .x-axis text,
+  .y-axis text {
+    font-size: 20px; /* Tamaño de la fuente de los números de los ejes */
+    fill: #666; /* Color del texto de los ejes */
+  }
+  
+  /* Estilo para los títulos */
+  h1 {
+    font-size: 18px; /* Tamaño del título */
+    font-weight: bold; /* Negrita */
+    margin-bottom: 10px; /* Espacio entre el título y el gráfico */
+  }
+  
+  /* Estilo para el contenedor del gráfico */
+  #chart-container {
+    text-align: center; /* Centrar el contenido */
+  }
+  
