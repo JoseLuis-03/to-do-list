@@ -1,0 +1,15 @@
+div {
+    margin: 0 auto;
+    width: 80%;
+    border: 0px solid rgb(7, 7, 7);
+    border-radius: 10px;
+    padding: 0px;
+    text-align: center;
+    background-color: #cbc21e;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    font-family: 'comic sans ms';
+}
